@@ -1,0 +1,3 @@
+import ContactForm from "../../components/ContactForm";
+export const metadata={title:"Start a conversation"};
+export default function Contact(){return <section className="section shell contact-page"><div data-reveal><p className="eyebrow">NO DECKS. NO DEAR SIR/MADAM.</p><h1>Good things<br/>start with<br/><i>“hello”.</i></h1><p className="lead">Got a problem? Excellent.<br/>Got an idea? Even better.<br/>Got no idea? That’s why we’re here.</p><a className="contact-email" href="mailto:maharshivivekanands@gmail.com">maharshivivekanands@gmail.com ↗</a><p><a href="tel:+916361588219">+91 6361588219</a><br/>Bengaluru, India</p></div><ContactForm/></section>}
